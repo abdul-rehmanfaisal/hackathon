@@ -93,7 +93,7 @@ var transporter = nodemailer.createTransport({
 
 var mailOptions = {
   from: 'faisalabdulrehman97@gmail.com',
-  to: 'asmaf610@gmail.com',
+  to: 'asmaf610@gmail.com','hammadn788@gmail.com',email,
   subject: 'Congratulations on Your Current Enrollment!',
 html:'<div style="border: 1000px;"><h1 style="text-align: center;">Congrats!</h1><img style="align-items: center; height: 10 rem;width: 30rem;" src="https://media.licdn.com/dms/image/D4D0BAQGD8npW7pZRLQ/company-logo_200_200/0/1684398542686?e=2147483647&v=beta&t=cxKn8F_pSgzn_3jv215dGJiM0ATx-S2EjSnxtJYR3XY"><p>Hi ${email} </p><br><p>I hope this email finds you in good spirits.</p><br><p style="text-align: center">Congratulations on being currently enrolled! Your commitment to your education is commendable, and I wanted to take a moment to acknowledge your dedication. Keep up the great work! If you ever need any assistance or have any questions, please donot hesitate to reach out. We are here to support you every step of the way.Wishing you continued success in your academic journey!</p></div>'
 };
